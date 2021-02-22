@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Обратная связь</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<body>
+
+<h1>Обратная связь со мной.</h1>
+
+
+<main>
+
+	<div class="formBox">
+		<form action="formsPage.php">
+			<p class="formText">Поле для ваших мыслей</p>
+			<p class="form">
+				<textarea rows="15" cols="53" name="comment" ></textarea>
+			</p>
+			<input class="submit" type="submit">
+	 	</form>
+	</div>
+
+	<div class="formBox">
+	 	<form action="formsPage.php">
+	 		<p class="formText">Откуда вы про меня узнали?</p>
+	 		<div id="radioDiv" class="form">
+	 			<br><br><div class="radioTxt"><input type="radio" name="answer" value="a1">От друзей<Br></div>
+		  		<div class="radioTxt"><input type="radio" name="answer" value="a2">Я между прочим твой преподаватель<Br></div>
+		  		<div class="radioTxt"><input type="radio" name="answer" value="a3">Из списков на отчисление</div>
+	  		</div>
+	  		<input class="submit" type="submit">
+	 	</form>
+	</div>
+
+	<div class="formBox">
+		 <form action="formsPage.php">
+		 		<p class="formText">Ваше ФИО и Email</p>
+			 	<p class="form">
+			 		<label class="labelName" for="fname">ФИО</label>
+				  	<input type="text" id="Fname" name="Fname"><br>
+				 	<label class="labelName" for="Email">Email</label>
+				 	<input type="text" id="Email" name="Email">
+					<label><b> Я согласен на обработку персональных данных <input type="checkbox"/></b></label>
+				 </p>
+			 	<input class="submit" type="submit">
+		</form> 
+	</div>
+
+	<div id="fileDiv">
+		<p class="formText">Прикрепить файл</p>
+
+		<form enctype="multipart/form-data" method="post">
+   			<p>
+	   			<div id="uploadDiv"><input id="uploadFile" type="file" name="f"></div><br><br>
+	  			<input id="sumbFile" type="submit" value="Отправить">
+  			</p>
+ 		</form> 
+
+
+
+
+	</div>
+
+
+</main>
+
+</body>
+</html>

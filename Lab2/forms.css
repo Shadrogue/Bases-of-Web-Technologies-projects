@@ -1,0 +1,143 @@
+body
+{
+	background-image: url(backin.jpg);
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1
+{
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 0 2px 10px rgb(0, 0, 0);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+
+.formBox
+{
+	height: 450px;
+	width: 600px;
+	float: left;
+	margin: 0 auto;
+}
+
+.form
+{
+	width: 450px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.formText
+{
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	text-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+
+main{
+	margin: 0 auto;
+	width: 1800px;
+}
+
+input[type=submit] {
+	box-shadow: 0 0 15px rgb(0, 0, 0); 
+	margin: 0 150px;
+	width: 50%;
+	background-color: rgb(179, 179, 179);
+	color: rgb(255, 255, 255);
+	padding: 14px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+
+input[type=submit]:hover {
+  box-shadow: none; 
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.labelName{
+	color: rgb(0, 0, 0);
+	margin-left: 190px;
+	font-size: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.radioTxt
+{
+	margin-top: 30px;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+
+#fileDiv
+{
+	clear: both;
+	padding-top: 30px;
+	height: 380px;
+}
+
+#sumbFile
+{
+	margin-left: 700px;
+	width: 450px;
+	
+}
+
+#uploadDiv
+{
+	width: 450px;
+	height: 235px;
+	background-color: rgb(196, 196, 196);
+	margin-left: 700px;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 0 15px rgb(0, 0, 0);
+	background-image: url(attach.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: center;
+
+}
+
+#uploadFile
+{
+	width: 900px;
+	height: 235px;
+	opacity: 0;
+	cursor: pointer;
+	border: none;
+}
+
